@@ -1,0 +1,13 @@
+clusterName: vote-result-eks
+region: ap-northeast-2
+
+metrics:
+  enabled: true
+  collection_interval: 60
+  metrics_collected:
+    cpu: {}
+    mem: {}
+    disk: {}
+    net: {}
+logs:
+  enabled: false
